@@ -1,0 +1,14 @@
+[package]
+name = "geneva"
+author = "Kamil Solecki <kamilczak020@gmail.com>"
+about = "A blazingly fast template-based code generator."
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["generate", "code", "template", "validate"]
+categories = ["development-tools::build-utils", "development-tools", "template-engine"]
+
+[dependencies]
+clap_complete = "4.0.2"
+clap = { version = "4.0.15", features = ["derive"] }
+mio = { version = "0.8", features = ["os-poll", "net"] }
